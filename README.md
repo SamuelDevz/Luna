@@ -23,9 +23,6 @@ cmake -B build -S . [flag(s)]
 
 During the configuration process, the examples will be compiled. If you don't want to compile them, you could pass the -DBUILD_EXAMPLES=OFF flag to the cmake command above.
 
-If you want to use shared libraries instead of static libraries, you can pass the -DBUILD_SHARED_LIBRARY=ON flag to the 
-command above.
-
 ### Build
 
 After configuring the project, you can build it using the following command:
